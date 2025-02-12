@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Master</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-m"></i>
+                    <div class="logo-text">Muskan Master</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-links">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="project.html">Project</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="pfp.jpeg" alt="profile">
+                </div>
+                <div class="text">
+                    <h5>Hello I'm <span class="">Frontend Developer</span></h5>
+                    <h1>Muskan Master</h1>
+                    <p>I  am a passionate and driven Frontend Developer based in Bharuch, Gujarat, India, seeking an entry-level opportunity to apply my theoretical knowledge and programming skills in a professional environment.</p>
+                    <div class="btn-group">
+                        <a href="RESUME.pdf" class="btn">Download CV</a>
+                        <a href="contact.html" class="btn">Contact</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontend Developer","UX Designer","Web Developer"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+       
+</body>
+</html>

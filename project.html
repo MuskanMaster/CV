@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Display - Your Project Title</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+  
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-m"></i>
+                <div class="logo-text">Muskan Master</div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="project.html">project</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <section id="overview">
+        <h2>Organ Donation </h2>
+        <link rel="https://github.com/MuskanMaster/Organ-donation1">
+        <p>Here it is website where a user can easily find a donar and reciver near themselves via connecting .</p>
+    </section>
+    <section id="technologies">
+        <h2>Technologies Used</h2>
+        <p>List the technologies, frameworks, and tools you used to build this project.</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Backend Technologies (e.g., Node.js, Python)</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="homepage.png" alt="Screenshot of the project" />
+            <img src="contact.png" alt="Another screenshot of the project" />
+        </div>
+        <div class="container">
+            <button id="projectLinkButton" class="project-button">View Project</button>
+        </div>
+    </section>
+    <script>
+       document.getElementById('projectLinkButton').addEventListener('click', function() {
+    window.location.href = 'https://github.com/MuskanMaster/Organ-donation1'; // Replace with your project link
+}); 
+    </script>
+</body>
+</html>
